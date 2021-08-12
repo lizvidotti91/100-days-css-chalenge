@@ -19,7 +19,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 
 ## Desafios
 
-*   [Dia 01 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/master/Desafios/Dia%2001); 
+*   [Dia 01 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%201); 
 
 ## Autora
 

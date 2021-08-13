@@ -20,6 +20,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 ## Desafios
 
 *   [Dia 01 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%201); 
+* [Dia 02 - Dia 02 - Animação no ícone de Menu](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%202); 
 
 ## Autora
 

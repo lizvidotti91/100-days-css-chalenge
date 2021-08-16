@@ -99,6 +99,26 @@ main {
     font-size: 6vh;
 }
 
+@media only screen and (max-width: 320px) {
+    .days{
+        font-size: 17vh;
+    }
+
+    .css-chalenge{
+        font-size: 4vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .days{
+        font-size: 20vh;
+    }
+
+    .css-chalenge{
+        font-size: 5vh;
+    }
+}
+
 .menu{
     align-items: center;
     display: flex;

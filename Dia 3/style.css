@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background: #8338ec;
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.sky{
+    background: #38b0de;
+    border-radius: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.sand{
+    background: #c2b280;
+    height: 100%;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+
+.sun{
+    background: #f9d71c;
+    border-radius: 50%;
+    height: 20%;
+    left: -10%;
+    position: absolute;
+    top: -40%;
+    width: 20%;
+}
+
+.pyramid-left{
+    background: #fff;
+    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+    height: 40%;
+    left: 10%;
+    position: absolute;
+    top: -40%;
+    width: 80%;
+}
+
+.pyramid-right{
+    background: #d9d9d9;
+    clip-path: polygon(30% 100%, 100% 100%, 0% 0%);
+    height: 40%;
+    left: 50%;
+    position: absolute;
+    top: -40%;
+    width: 40%;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

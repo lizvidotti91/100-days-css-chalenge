@@ -10,7 +10,7 @@ main{
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 h1{
@@ -21,12 +21,26 @@ h1{
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 4vh;
+        text-align: center;
+        width: 80%;
+    }
+}
+
 .list{
     height: 60%;
     list-style-type: none;
     margin-top: 10vh;
     overflow-y: scroll;
     width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .list{
+        width: 90%;
+    }
 }
 
 .list li{
@@ -46,6 +60,16 @@ h1{
     border-radius: 10px;   
     background-color: #8338ec;
     height: 100px;   
+}
+
+@media only screen and (max-width: 768px) {
+    .list li{
+        width: 80%;
+    }
+
+    .list::-webkit-scrollbar {
+        width: 10px;
+    } 
 }
 
 .btn-home{

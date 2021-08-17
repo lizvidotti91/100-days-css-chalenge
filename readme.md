@@ -23,6 +23,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 *   [Dia 01 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%201); 
 * [Dia 02 - Animação no ícone de Menu](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%202); 
 * [Dia 03 - Sombra na Pirâmide](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%203); 
+* [Dia 04 - Carregamento de página](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%204); 
 
 ## Autora
 

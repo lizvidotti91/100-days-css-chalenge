@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background: #8338ec;
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.ball-1, .ball-2, .ball-3{
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #000;
+    background: whitesmoke;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.ball-1{
+    animation-name: animate-load-1;
+    height: 80%;
+    width: 80%;
+    z-index: 1;
+}
+
+.ball-2{
+    animation-name: animate-load-2;
+    height: 50%;
+    width: 50%;
+    z-index: 2;
+}
+
+.ball-3{
+    animation-name: animate-load-3;
+    height: 30%;
+    width: 30%;
+    z-index: 3;
+}
+
+@keyframes animate-load-1 {
+    0%, 10%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes animate-load-2 {
+    0%, 40%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes animate-load-3 {
+    0%, 70%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

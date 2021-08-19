@@ -25,6 +25,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 03 - Sombra na Pirâmide](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%203); 
 * [Dia 04 - Carregamento de página](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%204); 
 * [Dia 05 - Gráfico em CSS](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%205); 
+* [Dia 06 - Card para Perfil de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%206); 
 
 ## Autora
 

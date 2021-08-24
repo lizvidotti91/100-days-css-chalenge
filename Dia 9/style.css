@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    color: #10002b;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper .sky{
+    background: #10002b;
+    flex: 2;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .sky .moon{
+    background: #e0aaff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #e0aaff;
+    height: 20%;
+    left: 10%;
+    position: absolute;
+    top: 20%;
+    width: 20%;
+}
+
+.moon .crater{
+    background: #00000010;
+    border-radius: 50%;
+    height: 10%;
+    left: 80%;
+    position: absolute;
+    top: 40%;
+    width: 10%;
+}
+
+.moon .crater::before,
+.moon .crater::after{
+    content: "";
+    background: #00000010;
+    border-radius: 50%;
+    height: 50%;
+    position: absolute;
+    width: 50%;
+}
+
+.moon .crater::before{
+    left: -100%;
+    top: -10%;
+}
+
+.moon .crater::after{
+    bottom: -100%;
+    right: -50%;
+}
+
+.moon .crater:first-child{
+    left: 20%;
+    top: 30%;
+}
+
+.moon .crater:last-child{
+    left: 50%;
+    top: 70%;
+}
+
+.wrapper .sky .rain-big,
+.wrapper .sky .rain-medium,
+.wrapper .sky .rain-small{
+    background: #9d4edd;
+    border-radius: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: 50% 100%;
+    z-index: 99;
+}
+
+.wrapper .sky .rain-big{
+    animation: rainning 2s linear infinite;
+    animation-fill-mode: both;
+    height: 12px;
+    width: 12px;
+}
+
+.wrapper .sky .rain-medium{
+    animation: rainning 3s linear infinite;
+    animation-fill-mode: both;
+    height: 8px;
+    width: 8px;
+}
+
+.wrapper .sky .rain-small{
+    animation: rainning 4s linear infinite;
+    animation-fill-mode: both;
+    height: 5px;
+    width: 5px;
+}
+
+.wrapper .sky .rain-big.rain-1,
+.wrapper .sky .rain-medium.rain-1,
+.wrapper .sky .rain-small.rain-1,
+.wrapper .sky .rain-big.rain-2,
+.wrapper .sky .rain-medium.rain-2,
+.wrapper .sky .rain-small.rain-2,
+.wrapper .sky .rain-big.rain-3,
+.wrapper .sky .rain-medium.rain-3,
+.wrapper .sky .rain-small.rain-3,
+.wrapper .sky .rain-big.rain-4,
+.wrapper .sky .rain-medium.rain-4,
+.wrapper .sky .rain-small.rain-4,
+.wrapper .sky .rain-big.rain-5,
+.wrapper .sky .rain-medium.rain-5,
+.wrapper .sky .rain-small.rain-5{
+    animation-delay: 0.3s;
+}
+
+/* .wrapper .sky .rain-big.rain-6,
+.wrapper .sky .rain-medium.rain-6,
+.wrapper .sky .rain-small.rain-6,
+.wrapper .sky .rain-big.rain-7,
+.wrapper .sky .rain-medium.rain-7,
+.wrapper .sky .rain-small.rain-7,
+.wrapper .sky .rain-big.rain-8,
+.wrapper .sky .rain-medium.rain-8,
+.wrapper .sky .rain-small.rain-8,
+.wrapper .sky .rain-big.rain-9,
+.wrapper .sky .rain-medium.rain-9,
+.wrapper .sky .rain-small.rain-9,
+.wrapper .sky .rain-big.rain-10,
+.wrapper .sky .rain-medium.rain-10,
+.wrapper .sky .rain-small.rain-10{
+    animation-delay: 0.3s;
+} */
+
+.wrapper .sky .rain-big.rain-1,
+.wrapper .sky .rain-medium.rain-1,
+.wrapper .sky .rain-small.rain-1,
+.wrapper .sky .rain-big.rain-6,
+.wrapper .sky .rain-medium.rain-6,
+.wrapper .sky .rain-small.rain-6{
+    left: 10%;
+}
+
+.wrapper .sky .rain-big.rain-2,
+.wrapper .sky .rain-medium.rain-2,
+.wrapper .sky .rain-small.rain-2,
+.wrapper .sky .rain-big.rain-7,
+.wrapper .sky .rain-medium.rain-7,
+.wrapper .sky .rain-small.rain-7{
+    left: 30%;
+}
+
+.wrapper .sky .rain-big.rain-3,
+.wrapper .sky .rain-medium.rain-3,
+.wrapper .sky .rain-small.rain-3,
+.wrapper .sky .rain-big.rain-8,
+.wrapper .sky .rain-medium.rain-8,
+.wrapper .sky .rain-small.rain-8{
+    left: 50%;
+}
+
+.wrapper .sky .rain-big.rain-4,
+.wrapper .sky .rain-medium.rain-4,
+.wrapper .sky .rain-small.rain-4,
+.wrapper .sky .rain-big.rain-9,
+.wrapper .sky .rain-medium.rain-9,
+.wrapper .sky .rain-small.rain-9{
+    left: 70%;
+}
+
+.wrapper .sky .rain-big.rain-5,
+.wrapper .sky .rain-medium.rain-5,
+.wrapper .sky .rain-small.rain-5,
+.wrapper .sky .rain-big.rain-10,
+.wrapper .sky .rain-medium.rain-10,
+.wrapper .sky .rain-small.rain-10{
+    left: 90%;
+}
+
+@keyframes rainning {
+    0%{
+        transform: translate(0,0) scale(1) rotate(30deg);
+    }
+    50%{
+        transform: translate(0,65vh) scaleX(1) scaleY(3) rotate(30deg);
+    }
+    100%{
+        transform: translate(0,65vh) scaleX(3) scaleY(0) rotate(0);
+    }
+}
+
+.rain-big::before,
+.rain-big::after,
+.rain-medium::before,
+.rain-medium::after,
+.rain-small::before,
+.rain-small::after{
+    background: #9d4edd;
+    border-radius: 50%;
+    content: "";
+    height: 90%;
+    position: absolute;
+    width: 90%;
+}
+
+.rain-big::before,
+.rain-medium::before,
+.rain-small::before{
+    left: -5vh;
+    top: 0;
+}
+
+.rain-big::after,
+.rain-medium::after,
+.rain-small::after{
+    right: -5vh;
+    bottom: 0;
+}
+
+.wrapper .sky .mountain-back,
+.wrapper .sky .mountain-front{
+    border-radius: 50%;
+    height: 60%;
+    position: absolute;
+    width: 60%;
+}
+
+.mountain-back{
+    background: #240046;
+    bottom: -10%;
+    left: -10%;
+}
+
+.mountain-front{
+    background: #3c096c;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mountain-back::after,
+.mountain-front::before,
+.mountain-front::after{
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.mountain-back::after{
+    background: #240046;
+    bottom: 0;
+    left: 90%;
+}
+
+.mountain-front::before,
+.mountain-front::after{
+    background: #3c096c;
+    bottom: -10%;
+}
+
+.mountain-front::before{
+    left: -70%;
+}
+
+.mountain-front::after{
+    left: 70%;
+}
+
+.wrapper .box{
+    background: #e0aaff;
+    width: 100%;
+}
+
+.wrapper .box ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    padding: 3vh;
+}
+
+.wrapper .box ul li:first-child{
+    font-size: 6vh;
+}
+
+.wrapper .box ul li span{
+    display: block;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

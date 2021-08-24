@@ -26,8 +26,9 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 04 - Carregamento de página](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%204); 
 * [Dia 05 - Gráfico em CSS](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%205); 
 * [Dia 06 - Card para Perfil de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%206); 
-* [Dia 07 - Notificações de Rede Social ](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%207); 
-* [Dia 08 - Metaballs ](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%208); 
+* [Dia 07 - Notificações de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%207); 
+* [Dia 08 - Metaballs](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%208); 
+* [Dia 09 - Previsão do Tempo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%209); 
 
 ## Autora
 

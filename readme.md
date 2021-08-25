@@ -20,15 +20,15 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 
 ## Desafios
 
-*   [Dia 01 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%201); 
-* [Dia 02 - Animação no ícone de Menu](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%202); 
-* [Dia 03 - Sombra na Pirâmide](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%203); 
-* [Dia 04 - Carregamento de página](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%204); 
-* [Dia 05 - Gráfico em CSS](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%205); 
-* [Dia 06 - Card para Perfil de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%206); 
-* [Dia 07 - Notificações de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%207); 
-* [Dia 08 - Metaballs](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%208); 
-* [Dia 09 - Previsão do Tempo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%209); 
+*   [Dia 001 - Construção de número customizado e fundo em gradiente](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%201); 
+* [Dia 002 - Animação no ícone de Menu](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%202); 
+* [Dia 003 - Sombra na Pirâmide](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%203); 
+* [Dia 004 - Carregamento de página](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%204); 
+* [Dia 005 - Gráfico em CSS](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%205); 
+* [Dia 006 - Card para Perfil de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%206); 
+* [Dia 007 - Notificações de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%207); 
+* [Dia 008 - Metaballs](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%208); 
+* [Dia 009 - Previsão do Tempo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%209); 
 * [Dia 10 - Smartwatch com hora do dia](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%2010); 
 
 ## Autora

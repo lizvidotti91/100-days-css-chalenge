@@ -27,7 +27,7 @@ const dayTime = document.querySelector('.day-time');
 
 let today = new Date();
 let hour = today.getHours();
-let minute = today.getMinutes();
+let minute = today.getMinutes()<10?'0' + today.getMinutes() : today.getMinutes();
 let week = today.getDay();
 let day = today.getDate();
 let month = today.getMonth();

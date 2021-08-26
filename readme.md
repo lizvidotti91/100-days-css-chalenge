@@ -29,7 +29,8 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 007 - Notificações de Rede Social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%207); 
 * [Dia 008 - Metaballs](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%208); 
 * [Dia 009 - Previsão do Tempo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%209); 
-* [Dia 10 - Smartwatch com hora do dia](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%2010); 
+* [Dia 010 - Smartwatch com hora do dia](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%2010); 
+* [Dia 011 - Pé ante pé](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%2011); 
 
 ## Autora
 

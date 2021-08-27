@@ -31,6 +31,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 009 - Previsão do Tempo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20009); 
 * [Dia 010 - Smartwatch com hora do dia](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20010); 
 * [Dia 011 - Pé ante pé](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20011); 
+* [Dia 012 - Tooltip](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20012); 
 
 ## Autora
 

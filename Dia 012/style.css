@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    background: #8338ec;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 3vh;
+    position: relative;
+    width: 100%;
+}
+
+.fa-quote-left{
+    color: #ffffff60;
+    font-size: 10vh;
+    left: 5%;
+    position: absolute;
+    top: 20%;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 6vh;
+    text-align: center;
+}
+
+p{
+    background: #3a86ff70;
+    border-radius: 2vh;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    position: relative;
+    transition: 0.3s;
+}
+
+p:hover{
+    box-shadow: 2px 2px 10px #00000060;
+}
+
+.note{
+    background: #fee440;
+    border-radius: 2vh;
+    color: #000;
+    display: block;
+    font-size: 2vh;
+    left: -150%;
+    line-height: 2.8vh;
+    opacity: 0;
+    padding: 3vh;
+    position: absolute;
+    text-align: justify;
+    text-indent: 1vw;
+    top: -30vh;
+    transition: .6s;
+    width: 70vh;
+    z-index: 999;
+}
+
+p:hover .note{
+    opacity: 1;
+}
+
+.note::before{
+    background: #fee440;
+    bottom: -3vh;
+    content: "";
+    height: 6vh;
+    left: 50%;
+    position: absolute;
+    transform:  rotate(45deg);
+    width: 6vh;
+    z-index: 99;
+}
+
+.note a{
+    color: #3a86ff;
+    display: block;
+    text-align: right;
+    transition: 0.3s;
+}
+
+.note a:hover{
+    color: #000;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

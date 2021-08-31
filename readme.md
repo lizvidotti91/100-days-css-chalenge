@@ -33,6 +33,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 011 - Pé ante pé](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20011); 
 * [Dia 012 - Tooltip](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20012); 
 * [Dia 013 - Galeria de Usuários de rede social](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20013); 
+* [Dia 014 - Card com flip e animação](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20014); 
 
 ## Autora
 

@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    background: #8338ec;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.container{
+    height: 150%;
+    left: -50%;
+    position: absolute;
+    top: -25%;
+    transform: rotate(45deg);
+    width: 200%;
+}
+
+.line{
+    background: #00000060;
+    height: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+svg{
+    z-index: 2;
+}
+
+.middle{
+    animation: middle-animate 3s linear infinite;
+    fill: #ffaa00;
+}
+
+.dark{
+    animation: dark-animate 3s linear infinite;
+    fill: #ff7b00;
+}
+
+.light{
+    animation: light-animate 3s linear infinite;
+    fill: #ffea00;
+}
+
+@keyframes middle-animate{
+    0%{
+        fill: #ffaa00; 
+    }
+    50%{
+        fill: #ffea00; 
+    }
+    100%{
+        fill: #ff7b00; 
+    }
+}
+
+@keyframes dark-animate{
+    0%{
+        fill: #ff7b00; 
+    }
+    50%{
+        fill: #ffaa00; 
+    }
+    100%{
+        fill: #ffea00; 
+    }
+}
+
+@keyframes light-animate{
+    0%{
+        fill: #ffea00; 
+    }
+    50%{
+        fill: #ff7b00; 
+    }
+    100%{
+        fill: #ffaa00; 
+    }
+}
+
+svg{
+    fill: none;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

@@ -37,6 +37,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 015 - Upload Fake de arquivos](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20015); 
 * [Dia 016 - Pisca-pisca com formas geométricas](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20016); 
 * [Dia 017 - Triângulo Penrose](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20017); 
+* [Dia 018 - Animação elástica](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20018); 
 
 ## Autora
 

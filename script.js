@@ -12,7 +12,7 @@ function newElement(element) {
 //     list.appendChild(newItem);
 // }
 
-for (var i = 1; i <= 17; i++) {
+for (var i = 1; i <= 18; i++) {
     if (i < 10) {
         var newItem = newElement('li');
         newItem.innerHTML = `

@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+input{
+    display: none;
+}
+
+.circle{
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #00000060;
+    height: 10vh;
+    margin: 0 1vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vh;
+    z-index: 2;
+}
+
+.circle:nth-child(1){
+    left: 30%;
+}
+
+.circle:nth-child(3){
+    left: 50%;
+}
+
+.circle:nth-child(5){
+    left: 70%;
+}
+
+.active{
+    background: whitesmoke;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px 5px #00000060;
+    height: 8vh;
+    left: calc(30% - 2.3vh);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s;
+    width: 8vh;
+    z-index: 2;
+}
+
+.bg{
+    background-color: #8338ec;
+    box-shadow: 80vh 0 0 0 #ffbe0b,
+                160vh 0 0 0 #ff006e;
+    height: 80vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 1s;
+    width: 80vh;
+}
+
+#circle-1:checked ~ .active{
+    left: calc(30% - 2.3vh);
+}
+
+#circle-2:checked ~ .active{
+    left: calc(50% - 2vh);
+}
+
+#circle-3:checked ~ .active{
+    left: calc(70% - 2.3vh);
+}
+
+#circle-1:checked ~ .bg{
+    left: 0;
+}
+
+#circle-2:checked ~ .bg{
+    left: -80vh;
+}
+
+#circle-3:checked ~ .bg{
+    left: -160vh;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

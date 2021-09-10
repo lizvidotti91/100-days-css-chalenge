@@ -39,6 +39,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 017 - Triângulo Penrose](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20017); 
 * [Dia 018 - Animação elástica](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20018); 
 * [Dia 019 - Slider com input do tipo radio](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20019); 
+* [Dia 020 - Animação para envio de email](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20020); 
 
 ## Autora
 

@@ -1,40 +1,4 @@
-// var list = window.document.querySelector('.list');
-
-function newElement(element) {
-    return window.document.createElement(element);
-}
-//Para substituir esse código coloquei um if... else if... else...
-// for (var i = 1; i <= 10; i++) {
-//     var newItem = newElement('li');
-//     newItem.innerHTML = `
-//             <a class="btn-home" href="./Dia 0000${i}/index.html">Dia #${i}</a>
-//         `;
-//     list.appendChild(newItem);
-// }
-
-// for (var i = 1; i <= 21; i++) {
-//     if (i < 10) {
-//         var newItem = newElement('li');
-//         newItem.innerHTML = `
-//                  <a class="btn-home" href="./Dia 00${i}/index.html">Dia #00${i}</a>
-//         `;
-//         list.appendChild(newItem);
-//     } else if (i >= 10 && i < 100) {
-//         var newItem = newElement('li');
-//         newItem.innerHTML = `
-//                  <a class="btn-home" href="./Dia 0${i}/index.html">Dia #0${i}</a>
-//         `;
-//         list.appendChild(newItem);
-//     } else {
-//         var newItem = newElement('li');
-//         newItem.innerHTML = `
-//                  <a class="btn-home" href="./Dia ${i}/index.html">Dia #${i}</a>
-//         `;
-//         list.appendChild(newItem);
-//     }
-// }//Assim o código modifica conforme o dia até a casa das centenas
-
-// Paginação
+// Paginação Home
 
 var list = new Array();
 var pageList = new Array();
@@ -43,21 +7,28 @@ var numberPerPage = 5;
 var numberOfPages = 0;
 
 function makeList() {
+    // Lista dos botões para cada dia do desafio
     for (var i = 1; i <= 21; i++) {
+        // Se o dia é entre o 1 e 10
         if (i < 10) {
             var newItem = `
                  <li> <a class="btn-home" href="./Dia 00${i}/index.html">Dia #00${i}</a> </li>
             `;
+            // Colocar cada dia em uma posição do array
             list.push(newItem);
+            // Se o dia é entre 10 e 100
         } else if (i >= 10 && i < 100) {
             var newItem = `
-                 <li> <a class="btn-home" href="./Dia 00${i}/index.html">Dia #00${i}</a> </li>
+                 <li> <a class="btn-home" href="./Dia 0${i}/index.html">Dia #00${i}</a> </li>
             `;
+            // Colocar cada dia em uma posição do array
             list.push(newItem);
+            // Exceção
         } else {
             var newItem = `
                  <li> <a class="btn-home" href="./Dia 00${i}/index.html">Dia #00${i}</a> </li>
             `;
+            // Colocar cada dia em uma posição do array
             list.push(newItem);
         }
     }

@@ -33,7 +33,6 @@ h1{
     height: 60%;
     list-style-type: none;
     margin-top: 10vh;
-    overflow-y: scroll;
     width: 50%;
 }
 
@@ -51,25 +50,10 @@ h1{
     width: 50%;
 }
 
-.list::-webkit-scrollbar {
-    background: #8338ec30;
-    width: 20px;
-} 
-   
-.list::-webkit-scrollbar-thumb {
-    border-radius: 10px;   
-    background-color: #8338ec;
-    height: 100px;   
-}
-
 @media only screen and (max-width: 768px) {
     .list li{
         width: 80%;
     }
-
-    .list::-webkit-scrollbar {
-        width: 10px;
-    } 
 }
 
 .btn-home{
@@ -86,4 +70,26 @@ h1{
 
 .list li:hover{
     box-shadow: 0 0 10px #00000090;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
 }

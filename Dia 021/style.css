@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    background: #8338ec;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.pacman{
+    animation: mouth-animate 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    fill: none;
+    height: 50%;
+    left: 25%;
+    position: absolute;
+    stroke: yellow;
+    stroke-dasharray: calc(50% * 3.14);
+    stroke-linecap: butt;
+    stroke-width: 50%;
+    top: 25%;
+    width: 50%;
+}
+
+@keyframes mouth-animate {
+    0%{
+        stroke-dashoffset: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        stroke-dashoffset: calc(50% * 3.14 / 4);
+        transform: rotate(45deg);
+    }
+}
+
+.eye{
+    animation: eye-animate 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    fill: #8338ec;
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+
+@keyframes eye-animate {
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-20%, -10%);
+    }
+}
+
+.dots{
+    animation: dot-animate 1s linear infinite;
+    animation-fill-mode: both;
+    height: 10%;
+    position: absolute;
+    right: 0;
+    stroke: yellow;
+    stroke-dasharray: 0 30%;
+    stroke-dashoffset: 5;
+    stroke-linecap: round;
+    stroke-width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+@keyframes dot-animate {
+    0%{
+        stroke-dashoffset: 5;
+    }
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

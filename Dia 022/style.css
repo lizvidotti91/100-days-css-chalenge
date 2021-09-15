@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    background: #8338ec;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .header{
+    font-size: 4vh;
+    margin: 0 auto;
+    padding: 4vh 0 2vh;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.wrapper .header b{
+    display: block;
+}
+
+.wrapper .content{
+    flex: 1;
+    position: relative;
+    width: 100%;
+}
+
+.content .circle-big{
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0;
+    width: 50%;
+}
+
+.content .circle-step{
+    height: 30%;
+    left: 10%;
+    position: absolute;
+    top: 60%;
+    width: 30%;
+}
+
+.content .circle-km{
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    width: 30%;
+}
+
+.text{
+    font-size: 3vh;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.text b{
+    display: block;
+    font-size: 2vh;
+}
+
+.bg{
+    fill: none;
+    stroke: #f5f5f560;
+    stroke-width: .5vh;
+}
+
+.progress{
+    animation: cal-animate 2s ease-out;
+    fill: none;
+    stroke: #ffd166;
+    stroke-dasharray: 580;
+    stroke-dashoffset: 350;
+    stroke-linecap: round;
+    stroke-width: .5vh;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+@keyframes cal-animate {
+    0%{
+        stroke-dashoffset: 600;
+    }
+    100%{
+        stroke-dashoffset: 350;
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

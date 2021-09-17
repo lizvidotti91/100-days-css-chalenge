@@ -42,6 +42,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 020 - Animação para envio de email](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20020); 
 * [Dia 021 - Animação do Pac-man](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20021); 
 * [Dia 022 - Monitor de vida fitness](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20022); 
+* [Dia 023 - Texto animado](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20023); 
 
 ## Autora
 

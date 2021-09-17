@@ -1,6 +1,6 @@
 # Dia 23 - Texto animado
 
-![Texto animado](./day22.gif?raw=true "Texto animado")
+![Texto animado](./day23.gif?raw=true "Texto animado")
 
 *   [Codepen](https://codepen.io/lizvidotti91/pen/BaZYYBP); 
 

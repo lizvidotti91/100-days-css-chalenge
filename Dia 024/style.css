@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    background: #8338ec;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.btn-send{
+    align-items: center;
+    border-color: whitesmoke !important;
+    border-radius: 10vh !important;
+    color: whitesmoke !important;
+    display: flex;
+    font-size: 2.5vh !important;
+    height: 10vh;
+    justify-content: center;
+    transition: .5s;
+    width: 50%;
+}
+
+.btn-send:hover{
+    background-color: #00000060;
+}
+
+.btn-send.sending{
+    animation: color-animate 1s linear;
+    background-color: whitesmoke;
+    border-color: #00000060 !important;
+    width: 10vh;
+}
+
+@keyframes color-animate {
+    0%{
+        background-color: transparent;
+    }
+    40%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: whitesmoke;
+    }
+}
+
+.fa-check{
+    animation: check-animate 1s linear;
+    color: green;
+    font-size: 5vh;
+}
+
+@keyframes check-animate {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.circle{
+    animation: progress 1s linear;
+    fill: none;
+    display: none;
+    height: 10vh;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    stroke: whitesmoke;
+    stroke-dasharray: 580;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    stroke-width: 3;
+    transform: rotate(-90deg);
+    width: 10vh;
+    z-index: 9;
+}
+
+.circle.active{
+    display: block;
+}
+
+@keyframes progress {
+    0%{
+        opacity: 1;
+        stroke-dashoffset: 600;
+        transform: rotate(-90deg);
+    }
+    40%{
+        opacity: 1;
+        stroke-dashoffset: 200;
+        transform: rotate(-90deg);
+    }
+    90%,100%{
+        opacity: 0;
+        stroke-dashoffset: 200;
+        transform: rotate(-90deg) scale(2);
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

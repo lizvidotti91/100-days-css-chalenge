@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    background: #8338ec;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+input{
+    display: none;
+}
+
+.map-icon,
+.card-back{
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.map-icon{
+    cursor: pointer;
+    height: 40%;
+    left: 40%;
+    position: absolute;
+    top: 30%;
+    transform: rotateY(0deg);
+    z-index: 99;
+}
+
+.fa-map-marker-alt{
+    animation: marker-move 1s linear alternate infinite;
+    font-size: 20vh;
+}
+
+.shadow{
+    animation: shadow-move 1s linear alternate infinite;
+    background-color: #00000060;
+    border-radius: 50%;
+    height: 5vh;
+    left: 2.5vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 80%;
+    width: 10vh;
+}
+
+@keyframes marker-move {
+    0%{
+        margin-top: 4vh;
+    }
+    100%{
+        margin-top: 2vh;
+    }
+}
+
+@keyframes shadow-move {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+.card-back{
+    background-color: whitesmoke;
+    border-radius: 1vh;
+    box-shadow: 5px 5px 10px #00000060;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+    left: 20%;
+    position: absolute;
+    top: 20%;
+    transform: rotateY(180deg);
+    width: 60%;
+}
+
+.banner{
+    background-image: url('bookstore.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 1vh 1vh 0 0;
+    height: 30%;
+    width: 100%;
+}
+
+.address h4,
+.address p{
+    color: black;
+    text-align: center;
+}
+
+.address h4{
+    font-size: 4vh;
+}
+
+.address p{
+    font-size: 3vh;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vh 2vh;
+}
+
+.buttons a{
+    color: #0077b6;
+    font-size: 2.8vh;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s;
+    width: 50%;
+}
+
+.buttons a:first-child{
+    border-right: 2px solid #0077b6;
+}
+
+.buttons a:hover{
+    text-decoration: underline;
+}
+
+input:checked ~ label .map-icon{
+    transform: rotateY(180deg);
+}
+
+input:checked ~ label .card-back{
+    transform: rotateY(0deg);
+    z-index: 999;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

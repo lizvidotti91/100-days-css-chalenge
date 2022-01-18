@@ -44,6 +44,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 022 - Monitor de vida fitness](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20022); 
 * [Dia 023 - Texto animado](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20023); 
 * [Dia 024 - Botão de envio de arquivos](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20024); 
+* [Dia 025 - Marcador de Mapa](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20025); 
 
 ## Autora
 

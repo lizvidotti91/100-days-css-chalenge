@@ -46,6 +46,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 024 - Botão de envio de arquivos](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20024); 
 * [Dia 025 - Marcador de Mapa](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20025); 
 * [Dia 026 - Modern Family Motivacional](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20026); 
+* [Dia 027 - Lista do Cafezinho](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20027); 
 
 ## Autora
 

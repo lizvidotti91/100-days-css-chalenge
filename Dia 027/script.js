@@ -16,15 +16,15 @@ function currentMonth(month) {
             break;
         case 6: return 'julho';
             break;
-        case 7: return 'setembro';
+        case 7: return 'agosto';
             break;
-        case 8: return 'outubro';
+        case 8: return 'setembro';
             break;
-        case 9: return 'novembro';
+        case 9: return 'outubro';
             break;
-        case 10: return 'dezembro';
+        case 10: return 'novembro';
             break;
-        case 11: return 'janeiro';
+        case 11: return 'dezembro';
             break;
         default: 'invalid';
     }

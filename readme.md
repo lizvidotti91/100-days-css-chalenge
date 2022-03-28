@@ -48,6 +48,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 026 - Modern Family Motivacional](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20026); 
 * [Dia 027 - Lista do Cafezinho](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20027); 
 * [Dia 028 - Animação para Alarme](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20028); 
+* [Dia 029 - Dicionário On-line](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20029); 
 
 ## Autora
 

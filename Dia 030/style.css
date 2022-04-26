@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    background: #8338ec;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.path{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.line{
+    animation: line-animate 2s linear infinite;
+    fill: none;
+    left: 0;
+    position: absolute;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-width: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@keyframes line-animate {
+    from{
+        stroke-dasharray: 80 600;
+        stroke-dashoffset: 700;
+    }
+    to{
+        stroke-dasharray: 80 600;
+        stroke-dashoffset: 70;
+    }
+}
+
+.circle{
+    animation: circle-animate 2s linear infinite;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 8%;
+    left: 46%;
+    position: absolute;
+    top: 46%;
+    width: 8%;
+}
+
+@keyframes circle-animate {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    55%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    65%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

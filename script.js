@@ -8,7 +8,7 @@ var numberOfPages = 0;
 
 function makeList() {
     // Lista dos botões para cada dia do desafio
-    for (var i = 1; i <= 30; i++) {
+    for (var i = 1; i <= 31; i++) {
         // Se o dia é entre o 1 e 10
         if (i < 10) {
             var newItem = `

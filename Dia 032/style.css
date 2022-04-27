@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    width: 80vh;
+    z-index: 0;
+}
+
+.wrapper{
+    align-items: center;
+    background: #8338ec;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 10vh;
+    width: 100%;
+}
+
+.counter{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6vh;
+    display: flex;
+    font-size: 6vh;
+    justify-content: space-between;
+    padding: 1vh;
+    width: 50%;
+}
+
+.less, .plus{
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 6vh;
+    text-align: center;
+    transition: .3s;
+    width: 6vh;
+}
+
+.less{
+    background-color: transparent;
+    color: #0077b6;
+}
+
+.less:hover{
+    background-color: #0077b6;
+    color: #fff;
+}
+
+.plus{
+    background-color: transparent;
+    color: #8338ec;
+}
+
+.plus:hover{
+    background-color: #8338ec;
+    color: #fff;
+}
+
+.number{
+    color: gray;
+}
+
+@keyframes blink-number {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.btn{
+    border: 2px solid #0077b6;
+    border-radius: 1vh;
+    color: #0077b6;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin: 0 1vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-brand{
+    background: #0077b6;
+    color: #fff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #00000060;
+}

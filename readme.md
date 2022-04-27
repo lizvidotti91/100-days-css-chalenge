@@ -51,6 +51,7 @@ Gostou da ideia? [Clique aqui](https://100dayscss.com/) para participar
 * [Dia 029 - Dicionário On-line](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20029); 
 * [Dia 030 - Linha Randômica](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20030); 
 * [Dia 031 - Pêndulo](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20031); 
+* [Dia 032 - Contador](https://github.com/lizvidotti91/100-days-css-chalenge/tree/main/Dia%20032); 
 
 ## Autora
 
